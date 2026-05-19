@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ops Dashboard</title>
+
+<style>
+body {
+  margin:0;
+  font-family: Arial;
+  background:#f2f2f2;
+}
+
+.header {
+  background:#3a3a3a;
+  color:white;
+  padding:20px;
+}
+
+.container {
+  padding:10px;
+}
+
+.branch {
+  background:white;
+  padding:15px;
+  border-radius:12px;
+  margin-bottom:12px;
+}
+
+button {
+  margin:5px;
+  padding:6px 10px;
+  border-radius:8px;
+  border:none;
+  cursor:pointer;
+}
+
+.task {
+  background:#ddd;
+}
+
+.done {
+  background:#4CAF50;
+  color:white;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+  <h2>Saleh Al-Saloum</h2>
+  <p>Regional Operations Manager — Saudi Arabia ⭐</p>
+  <p id="date"></p>
+  <p id="quote"></p>
+</div>
+
+<div class="container">
+
+  <div class="branch">
+    <h3>The Zone (Riyadh)</h3>
+
+    <div id="tasks"></div>
+
+  </div>
+
+</div>
+
+<script type="module">
+
